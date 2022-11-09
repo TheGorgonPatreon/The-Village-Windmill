@@ -2,7 +2,7 @@
   "id": "the-village-windmill",
   "title": "The Village Windmill",
   "description": "A nice clean windmill in the middle of a farmstead.",
-  "version": "1.6.0",
+  "version": "1.5.0",
   "compatibility": {
     "minimum": "0.8.6",
     "verified": "10",
@@ -57,7 +57,7 @@
     },
 	 {
       "id" : "levels",
-      "name": "levels",
+      "name": "levles",
       "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json",
       "type": "module"
     },
@@ -69,7 +69,7 @@
     },
 	 {
       "id" : "lib-wrapper",
-      "name": "lib-wrapper",
+      "name": "lib-wrrapper",
       "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
       "type": "module"
     },
@@ -114,13 +114,13 @@
     },
 	 {
       "id" : "levels",
-      "name": "levels",
+      "name": "levles",
       "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json",
       "type": "module"
     },
 	 {
       "id": "lib-wrapper",
-      "name": "lib-wrapper",
+      "name": "lib-wrrapper",
       "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
       "type": "module"
     },
@@ -139,6 +139,6 @@
     ]
   },
   "url": "https://www.patreon.com/The_Gorgon",
-  "manifest": "https://github.com/TheGorgonPatreon/The-Village-Windmill/releases/download/v1.6/module.json",
-  "download": "https://github.com/TheGorgonPatreon/The-Village-Windmill/archive/refs/tags/v1.6.zip"
+  "manifest": "https://github.com/TheGorgonPatreon/The-Village-Windmill/releases/download/v1.5/module.json",
+  "download": "https://github.com/TheGorgonPatreon/The-Village-Windmi5l/archive/refs/tags/v1.5.zip"
 }
