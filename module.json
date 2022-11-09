@@ -1,21 +1,18 @@
 {
   "id": "the-village-windmill",
-  "name": "the-village-windmill",
   "title": "The Village Windmill",
   "description": "A nice clean windmill in the middle of a farmstead.",
-  "version": "1.4.0",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "10",
+  "version": "1.5.0",
   "compatibility": {
     "minimum": "0.8.6",
     "verified": "10",
     "maximum": "10"
   },
-  "author": "The Gorgon and The Basilisk",
   "authors": [
     {
       "name": "The Gorgon and The Basilisk",
-      "discord": "The_Gorgon#5797"
+      "discord": "The_Gorgon#5797",
+      "flags": {}
     }
   ],
   "packs": [
@@ -23,19 +20,21 @@
       "name": "journals",
       "label": "The Village Windmill",
       "path": "/packs/journals.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
+      "private": false,
+      "type": "JournalEntry",
+      "flags": {}
     },
     {
       "name": "maps",
       "label": "The Village Windmill",
       "path": "/packs/maps.db",
-      "entity": "Scene",
-      "type": "Scene"
+      "private": false,
+      "type": "Scene",
+      "flags": {}
     }
   ],
   "esmodules": [
-    "./scripts/init.js"
+    "scripts/init.js"
   ],
   "dependencies": [
     {
@@ -50,15 +49,27 @@
       "manifest": "https://github.com/theripper93/wall-height/releases/latest/download/module.json",
       "type": "module"
     },
+	{
+      "id" : "compendium-folders",
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
+      "type": "module"
+    },
 	 {
       "id" : "levels",
-      "name": "levels",
+      "name": "levles",
       "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json",
+      "type": "module"
+    },
+	{
+      "id" : "betterroofs",
+      "name": "betterroofs",
+      "manifest": "https://github.com/theripper93/Better-Roofs/releases/latest/download/module.json",
       "type": "module"
     },
 	 {
       "id" : "lib-wrapper",
-      "name": "lib-wrapper",
+      "name": "lib-wrrapper",
       "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
       "type": "module"
     },
@@ -83,21 +94,33 @@
       "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
       "type": "module"
     },
+	{
+      "id" : "compendium-folders",
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
+      "type": "module"
+    },
 	 {
       "id" : "wall-height",
       "name": "wall-height",
       "manifest": "https://github.com/theripper93/wall-height/releases/latest/download/module.json",
       "type": "module"
     },
+	{
+      "id" : "betterroofs",
+      "name": "betterroofs",
+      "manifest": "https://github.com/theripper93/Better-Roofs/releases/latest/download/module.json",
+      "type": "module"
+    },
 	 {
       "id" : "levels",
-      "name": "levels",
+      "name": "levles",
       "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json",
       "type": "module"
     },
 	 {
       "id": "lib-wrapper",
-      "name": "lib-wrapper",
+      "name": "lib-wrrapper",
       "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
       "type": "module"
     },
@@ -116,7 +139,6 @@
     ]
   },
   "url": "https://www.patreon.com/The_Gorgon",
-  "manifest": "https://github.com/TheGorgonPatreon/The-Village-Windmill/releases/download/v1.4/module.json",
-  "download": "https://github.com/TheGorgonPatreon/The-Village-Windmill/archive/refs/tags/v1..4.zip",
-  "manifestPlusVersion": "1.2.0"
+  "manifest": "https://github.com/TheGorgonPatreon/The-Village-Windmill/releases/download/v1.5/module.json",
+  "download": "https://github.com/TheGorgonPatreon/The-Village-Windmi5l/archive/refs/tags/v1.5.zip"
 }
