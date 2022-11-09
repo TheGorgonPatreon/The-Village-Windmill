@@ -3,7 +3,7 @@
   "name": "the-village-windmill",
   "title": "The Village Windmill",
   "description": "A nice clean windmill in the middle of a farmstead.",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "10",
   "compatibility": {
