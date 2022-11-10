@@ -2,7 +2,7 @@
   "id": "the-village-windmill",
   "title": "The Village Windmill",
   "description": "A nice clean windmill in the middle of a farmstead.",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "compatibility": {
     "minimum": "0.8.6",
     "verified": "10",
@@ -139,6 +139,6 @@
     ]
   },
   "url": "https://www.patreon.com/The_Gorgon",
-  "manifest": "https://github.com/TheGorgonPatreon/The-Village-Windmill/releases/download/v1.8/module.json",
-  "download": "https://github.com/TheGorgonPatreon/The-Village-Windmi5l/archive/refs/tags/v1.8.zip"
+  "manifest": "https://github.com/TheGorgonPatreon/The-Village-Windmill/releases/download/v1.9/module.json",
+  "download": "https://github.com/TheGorgonPatreon/The-Village-Windmi5l/archive/refs/tags/v1.9.zip"
 }
